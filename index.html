@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Interactive Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="profile-card">
+
+        <h1>Priyanka Badugu</h1>
+
+        <h3>About Me</h3>
+        <p>
+            Hello! I am Priyanka, a B.Tech student
+            interested in Web Development.
+            I enjoy learning new technologies
+            and creating websites.
+        </p>
+
+        <h3>My Skills</h3>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ol>
+
+        <button onclick="showMessage()">Click Me</button>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script>
+        let name = "Priyanka";
+        const course = "Web Development";
+
+        console.log(name);
+        console.log(course);
+
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+            "Hello Priyanka! Welcome to JavaScript!";
+        }
+    </script>
+
+</body>
+</html>

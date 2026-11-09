@@ -1,0 +1,58 @@
+
+body {
+    background-color: #e6f2ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+.profile-card {
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid #3498db;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #1565c0;
+    font-size: 28px;
+}
+
+h3 {
+    color: #2874a6;
+}
+
+p {
+    color: #444;
+    line-height: 1.6;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    padding: 5px;
+}
+
+button {
+    background-color: #2874a6;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #154360;
+}
+
+#message {
+    color: green;
+    font-weight: bold;
+}
